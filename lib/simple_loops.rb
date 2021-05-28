@@ -17,11 +17,11 @@ end
 end
 loop_message_n_times("Hello moon", 8)
 
-def output_array (message, number = 8)
+def output_array (message, number)
   counter = 0 
 while counter < number do
   puts message
   counter += 1
 end
 end
-output_array("Hello moon", number)
+output_array("Hello moon", 8)
